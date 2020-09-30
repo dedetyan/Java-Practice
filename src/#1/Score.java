@@ -1,11 +1,11 @@
 public class Score{
     private int score = 0;
 
-    Score(int score){
+    public Score(int score){
         setScore(score);
     }
 
-    Score(){
+    public Score(){
     }
 
     public void setScore(int score) {
