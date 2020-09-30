@@ -2,7 +2,7 @@ public class Score{
     private int score = 0;
 
     Score(int score){
-        this.score = score;
+        setScore(score);
     }
 
     Score(){
