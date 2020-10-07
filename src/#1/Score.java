@@ -14,10 +14,10 @@ public class Score{
         }
     }
     public int getScore(){
-        return score;
+        return this.score;
     }
     public void showResult(String person){
-        System.out.println(person+"さんの点数："+score);
+        System.out.println(person+"さんの点数："+getScore());
     }
 
 }
