@@ -32,7 +32,7 @@ public static void main(String[] args) {
         System.out.println(name + "さんは" + result + "です。");
 
     } catch (Exception e) {
-        System.out.println(e.getMessage());
+        System.out.println(e);
     } 
 
    } 
